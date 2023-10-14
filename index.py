@@ -3,7 +3,7 @@ from flask import Flask
 # Nombre de la Aplicacion
 app = Flask(__name__)
 
-app.route("/")
+@app.route('/')
 def home():
     return 'Pagina de Inicio'
 
