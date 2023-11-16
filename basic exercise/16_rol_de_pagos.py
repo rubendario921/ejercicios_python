@@ -12,6 +12,7 @@ hora_trabajadas = int(input("Ingrese las horas trabajadas: "))
 valor_hora = int(input("Ingrese el valor de la hora de trabajo: "))
 
 calculo_total = hora_trabajadas * valor_hora
+impuesto=0
 
 if hora_trabajadas <= 35:
     valor_a_recibir = calculo_total
