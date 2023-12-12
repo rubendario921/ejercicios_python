@@ -9,7 +9,7 @@
 # o Si el sueldo es mayor de € 1000, el 30%.
 
 hora_trabajadas = int(input("Ingrese las horas trabajadas: "))
-valor_hora = int(input("Ingrese el valor de la hora de trabajo: "))
+valor_hora = float(input("Ingrese el valor de la hora de trabajo: "))
 
 calculo_total = hora_trabajadas * valor_hora
 impuesto=0
