@@ -27,3 +27,4 @@ while True:
     if intento != "s":
         print("Gracias por visitarnos")
         break
+        
