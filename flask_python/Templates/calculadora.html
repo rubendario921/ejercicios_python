@@ -1,0 +1,16 @@
+{% extends "View/layout.html" %}
+{% block content %}
+<h1>Calculadora</h1>
+<div class="form-control">
+    <form action="" method="post"></form>
+    <input type="number" name="num1" id="num1" placeholder="Ingrese primero número" step="0.01" min="0" required>
+    <input type="number" name="num2" id="num2" placeholder="Ingrese segundo número" step="0.01" min="0" required>
+    <select name="operation" id="operation" required>
+        <option selected>Seleccione una opción</option>
+        <option value="suma">SUMAR</option>
+        <option value="suma">RESTAR</option>
+    </select>
+    <button type="submit" name="calcular" id="calcular">Calcular</button>
+</div>
+
+{% endblock %}

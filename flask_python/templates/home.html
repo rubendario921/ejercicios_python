@@ -1,6 +1,30 @@
-{% extends "layout.html"%}
+{% extends "View/layout.html" %}
 {% block content %}
 
 
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="card text-center">
+                <h5 class="card-header">Calculadora</h5>
+                <div class="card-body">
+                    <h5 class="card-title">Operaciones Lógicas</h5>
+                    <p class="card-text">Suma, Resta, Multiplicación, Division</p>
+                    <a href="{{url_for('calculadora')}}" class="btn btn-primary">Ingresar</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="card text-center">
+                <h5 class="card-header">Calculadora</h5>
+                <div class="card-body">
+                    <h5 class="card-title">Operaciones Lógicas</h5>
+                    <p class="card-text">Suma, Resta, Multiplicación, Division</p>
+                    <a href="#" class="btn btn-primary">Ingresar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 {% endblock %}
